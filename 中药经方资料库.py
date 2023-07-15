@@ -7,8 +7,8 @@ localtime = time.asctime(t)
 str = "当前时间:" + time.asctime(t)
  
 print(str);
-CREATE DATABASE prescriptions;
-USE prescriptions;
+
+
 
 CREATE TABLE herbs (
   id INT PRIMARY KEY AUTO_INCREMENT,
